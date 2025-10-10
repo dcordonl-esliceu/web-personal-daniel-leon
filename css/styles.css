@@ -1,11 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: aquamarine;
+    color: black;
+    font-size: 16px;
+    font-family: 'Metal Mania', cursive;
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #0b2d2a;
+    margin: 0 0 0.5rem 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.metal-mania-regular {
+  font-family: "Metal Mania", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }

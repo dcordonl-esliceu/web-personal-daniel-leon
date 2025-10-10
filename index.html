@@ -1,54 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
     <title>Web personal</title>
 </head>
 <body>
-    <h1>Mi pagina web</h1>
-    <p>Bienvenido a mi pagina web</p>
-    <img src="img/Screenshot 2025-09-26 at 16-17-28 Trabajo de clase de Aplicacions web – 2n SMX MP8 - 0228.png" alt="Imagen de ejemplo">
-    <a href=""></a>
+</body>
+</html>
 
-    <div>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre-mi">Sobre mí</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-    </div>
+    <header>
+       
+    </header>
 
-    <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Esta es la sección de inicio.</p>
-    </section>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Hola — soc en Daniel</h1>
+                <p class="lede">Desenvolupador web aficionat. Aquí trobaràs els meus projectes i una mica de la meva història.</p>
+        </section>
 
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>Información sobre mí.</p>
-    </section>
+        <section class="section">
+            <div class="container">
+                <h2>Presentació</h2>
+                <p>Sóc estudiant/entusiasta del desenvolupament web. M'interessen el front-end, l'accessibilitat i crear experiències clares i lleugeres.</p>
+            </div>
+        </section>
 
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-        <p>Descripción de mis proyectos.</p>
-    </section>
+        <section class="section">
+            <div class="container">
+                <h2>Projectes</h2>
+                <p>Aquí hi ha alguns projectes de mostra. Pots afegir enllaços o demo enllaços quan estiguin disponibles.</p>
+                <ul class="projects-list">
+                    <li>Projecte 1 — Breu descripció</li>
+                    <li>Projecte 2 — Breu descripció</li>
+                    <li>Projecte 3 — Breu descripció</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Cómo contactarme.</p>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required placeholder="El teu mail" required>
-        <label for="condicions">Estic d'acord amb els termes i condicions</label>
-        <input type="checkbox" id="condicions" name="condicions" required>
+        <section class="section">
+            <div class="container">
+                <h2>Contacte</h2>
+                <p>Si vols contactar amb mi, envia'm un correu o utilitza el formulari.</p>
 
-        <div>
-        <a href="index.html"><input type="submit" name="submit" value="submit"></a>
+                <form class="contact-form" action="#" method="post">
+                    <label for="email">Correu electrònic</label>
+                    <input type="email" id="email" name="email" placeholder="el@exemple.com" required>
+
+                    <label for="missatge">Missatge</label>
+                    <textarea id="missatge" name="missatge" rows="4" placeholder="Escriu el teu missatge"></textarea>
+
+                    <div class="hero">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="condicions" name="condicions" required>
+                            Estic d'acord amb els termes i condicions
+                        </label>
+                    </div>
+
+                    <div class="hero">
+                        <button type="submit">Envia</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Daniel León</p>
         </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Mi pagina web</p>
     </footer>
 
 </body>
