@@ -1,2 +1,2 @@
 # web-personal-daniel-leon
-projecto de creaciond euna web personal.
+projecto de creacion de una web personal.
