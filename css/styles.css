@@ -34,9 +34,27 @@ img {
 }
 
 .navegacion_principal_contenedor {
+    display: flex;
+    justify-content: space-around;
     background-color: #0c2e2b;
     color: white;
     padding: 0px;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+
+body {
+   background-color: aquamarine;
+   display: flex;
+   flex-direction: row;
+   font-size: medium;
+}
+
+nav {
+    flex-direction: column;
+    align-items: center;
+}
+
 }
 
