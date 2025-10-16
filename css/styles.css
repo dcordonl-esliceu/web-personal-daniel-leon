@@ -32,3 +32,11 @@ img {
     display: block;
     margin: 0 auto;
 }
+
+.navegacion_principal_contenedor {
+    background-color: #0b2d2a;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
