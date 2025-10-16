@@ -48,6 +48,12 @@ img {
     margin: 0 auto;
 }
 
+.card img {
+    max-width: 100%;
+    max-height: 200px;
+    margin: auto;
+}
+
 .navegacion_principal_contenedor {
     display: flex;
     justify-content: space-around;
@@ -96,6 +102,13 @@ nav {
     background-size: cover;
     background-position: center;
 }
+}
+
+#projectes {
+    background-color: #0c2e2b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .card {
