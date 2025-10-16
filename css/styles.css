@@ -9,9 +9,24 @@ body {
     font-family: 'Metal Mania', cursive;
 }
 
-h1, h2, h3 {
-    color: #0b2d2a;
-    margin: 0 0 0.5rem 0;
+h2, h3 {
+   color: blueviolet;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+    color: blueviolet;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 .container{
@@ -54,7 +69,23 @@ body {
 nav {
     flex-direction: column;
     align-items: center;
+
+#hero-container {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
 }
 
 }
 
+#hero-container {
+    background-image: url('../img/Smoking.jpg');
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
