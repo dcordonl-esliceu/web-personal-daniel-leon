@@ -27,6 +27,10 @@ h2, h3 {
     1px 1px 0 black;
 }
 
+#p-projectes {
+    text-align: center;
+}
+
 h1 {
     text-transform: uppercase;
     color: blueviolet;
