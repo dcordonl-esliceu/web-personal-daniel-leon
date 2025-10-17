@@ -21,6 +21,6 @@ README.md
 
 ## Enllaç de desplegament
 
-El lloc publicat a Netlify: https://<el-teu-lloc>.netlify.app  (substitueix per l'enllaç final)
+El lloc publicat a Netlify: https://<https://web-personal-daniel.netlify.app/>.netlify.app  (substitueix per l'enllaç final)
 
 
