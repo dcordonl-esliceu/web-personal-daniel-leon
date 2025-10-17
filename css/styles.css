@@ -133,6 +133,14 @@ nav {
     margin: 5%;
 }
 
+.card1 {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 5%;
+}
+
 #imagen1 {
     display: flex;
     justify-content: center;
@@ -173,8 +181,7 @@ align-items: center;
     border-radius: .5rem;
     font-size: 50px;
     width: 90%;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 @media (max-width: 768px) {
