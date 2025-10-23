@@ -1,14 +1,18 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: aquamarine;
     color: black;
     font-size: 30px;
     font-family: 'Metal Mania', cursive;
+    background-image: url(../img/https___i.imgur.com_eTil976.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;   
 }
 
+/*Esto subaraya en negro los títulos y párrafos */
 h2, h3 {
    color: blueviolet;
     text-shadow:
@@ -27,10 +31,6 @@ h2, h3 {
     1px 1px 0 black;
 }
 
-#p-projectes {
-    text-align: center;
-}
-
 h1 {
     text-transform: uppercase;
     color: blueviolet;
@@ -41,12 +41,17 @@ h1 {
     1px 1px 0 black;
 }
 
+#p-projectes {
+    text-align: center;
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1rem;
 }
 
+/* Estils de la tipografia */
 .metal-mania-regular {
   font-family: "Metal Mania", system-ui;
   font-weight: 400;
@@ -80,22 +85,6 @@ img {
     height: 100px;
 }
 
-@media (max-width: 768px) {
-
-body {
-   background-color: aquamarine;
-   display: flex;
-   flex-direction: row;
-   font-size: medium;
-}
-
-nav {
-    flex-direction: column;
-    align-items: center;
-}
-
-}
-
 #hero-container {
     background-image: url('../img/Smoking.jpg');
     height: 400px;
@@ -105,22 +94,6 @@ nav {
     justify-content: center;
     background-size: cover;
     background-position: center;
-}
-
-
-@media (max-width: 768px) {
-#hero-container {
-    height: auto;
-    background-size: cover;
-    background-position: center;
-}
-}
-
-#projectes {
-    background-color: #0c2e2b;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
 }
 
 .card {
@@ -148,14 +121,7 @@ nav {
     max-width: 50%;
     height: auto;
     margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-.card {
-    width: auto;
-    font-size: medium;
-    margin: 2%;
-}
+    border: black 5px solid;
 }
 
 #contenido-hero {
@@ -165,6 +131,14 @@ flex-direction: column;
 align-items: center;
 }
 
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+.card {
+    width: auto;
+    font-size: medium;
+    margin: 2%;
+}
+}
 
 @media (max-width: 768px) {
 #contenido-hero {
@@ -188,4 +162,35 @@ align-items: center;
     #boton {
         width: auto;
     }
+}
+
+@media (max-width: 768px) {
+#hero-container {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+}
+
+#projectes {
+    background-color: #0c2e2b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+body {
+   background-color: aquamarine;
+   display: flex;
+   flex-direction: row;
+   font-size: medium;
+}
+
+nav {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
 }
