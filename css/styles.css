@@ -5,7 +5,7 @@ body {
     color: black;
     font-size: 30px;
     font-family: 'Metal Mania', cursive;
-    background-image: url(../img/V.jpeg);
+    background-image: url(../img/metal-gear-solid-snake-cool-orange-desktop-wallpaper-preview.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -13,7 +13,7 @@ body {
 }
 
 /*Esto subaraya en negro los títulos y párrafos */
-h2, h3 {
+h2, h3, h5 {
    color: blueviolet;
     text-shadow:
     -1px -1px 0 black,
@@ -44,6 +44,15 @@ h1 {
 #p-projectes {
     text-align: center;
     color: blueviolet;
+    text-shadow:  
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+#projectes {
+    border: 5px solid blueviolet;
 }
 
 .container{
@@ -53,7 +62,19 @@ h1 {
 }
 
 #contacte-section {
-    color: blueviolet;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    margin: 10px auto;
+    border: 5px solid blueviolet;
+    
+}
+
+#formulario {
+    text-align: right;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /* Estils de la tipografia */
@@ -88,15 +109,36 @@ p {
 }
 
 label {
-    color: blueviolet;
+    color: black;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#condiciones-div {
+    text-align: left;
+    margin-top: 10px;
+    color: black;
+}
+
+#boton-enviar-div {
+    text-align: center;
+    margin-top: 20px;
 }
 
 footer {
-    background-color: #0c2e2b;
+    background-color: darkorange;
     color: white;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+    border: 5px solid blueviolet;
 }
 
 .card img {
@@ -108,14 +150,14 @@ footer {
 .navegacion_principal_contenedor {
     display: flex;
     justify-content: space-around;
-    background-color: #0c2e2b;
+    background-color: darkorange;
     color: white;
     padding: 0px;
     text-align: center;
 }
 
 .bg-fondo {
-    background-color: #0c2e2b;
+    background-color: darkorange;
     height: 100px;
 }
 
@@ -155,7 +197,7 @@ footer {
     max-width: 50%;
     height: auto;
     margin: 0 auto;
-    border: black 5px solid;
+    border: blueviolet 5px solid;
 }
 
 #contenido-hero {
@@ -207,7 +249,7 @@ align-items: center;
 }
 
 #projectes {
-    background-color: #0c2e2b;
+    background-color: darkorange;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -227,4 +269,16 @@ nav {
     flex-direction: column;
     align-items: center;
 }
+footer {
+    font-size: medium;
+    color: blueviolet;
+    text-align: center;
+
+}
+
+#missatge {
+    font-size: medium;
+    text-align: center;
+}
+
 }
