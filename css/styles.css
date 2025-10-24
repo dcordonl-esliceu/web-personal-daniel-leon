@@ -5,7 +5,7 @@ body {
     color: black;
     font-size: 30px;
     font-family: 'Metal Mania', cursive;
-    background-image: url(../img/https___i.imgur.com_eTil976.webp);
+    background-image: url(../img/V.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -43,12 +43,17 @@ h1 {
 
 #p-projectes {
     text-align: center;
+    color: blueviolet;
 }
 
 .container{
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+#contacte-section {
+    color: blueviolet;
 }
 
 /* Estils de la tipografia */
@@ -63,6 +68,35 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+p {
+    color: blueviolet;
+}
+
+#email {
+    color: blueviolet;
+    font-size: 25px;
+}
+
+#contacte {
+    text-align: center;
+}
+
+#missatge {
+    color: blueviolet  ;
+}
+
+label {
+    color: blueviolet;
+}
+
+footer {
+    background-color: #0c2e2b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
 }
 
 .card img {
