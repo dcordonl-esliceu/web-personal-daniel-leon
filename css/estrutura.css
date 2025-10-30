@@ -35,13 +35,14 @@ body {
     z-index: -1;
 }
 
-#titulo, #subtitulo, #leer {
+#titulo, #subtitulo{
     text-align: center;
     margin: 10px;
     color: white;
 }
 
 a {
+    color: white;
     text-decoration: none;
     border: 1px solid white;
     padding: 10px;
@@ -79,4 +80,35 @@ a:hover {
     background-color: #f4f4f4;
     padding: 20px;
     text-align: center;
+}
+
+#section-a {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+#section-b {
+    font-size: 30px;
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+#section-c {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+div{
+    padding: 20px;
+}
+
+#div-a{
+background-color: orange;
+}
+
+#div-b{
+background-color: orange;
 }
